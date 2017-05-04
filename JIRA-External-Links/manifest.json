@@ -1,0 +1,19 @@
+{
+  "name": "JIRA External Links",
+  "description": "Just open the damn links in a new tab you sonovabitch.",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "permissions": [
+    "https://*.atlassian.net/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://*.atlassian.net/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  }
+}
