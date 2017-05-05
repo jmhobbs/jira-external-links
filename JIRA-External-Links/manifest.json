@@ -1,7 +1,12 @@
 {
   "name": "JIRA External Links",
   "description": "Just open the damn links in a new tab you sonovabitch.",
-  "version": "1.0.0",
+  "version": "1.0.2",
+  "icons": {
+    "16": "icon-16.png",
+    "32": "icon-32.png",
+    "128": "icon-128.png"
+  },
   "manifest_version": 2,
   "permissions": [
     "https://*.atlassian.net/*"
